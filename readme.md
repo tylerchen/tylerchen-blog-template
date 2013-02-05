@@ -10,7 +10,7 @@ Try TylerChen's Blog Template!
 ----
 Just Checkout the template and Push to your gh-pages branch [https://github.com/tylerchen/tylerchen-blog-template.git](https://github.com/tylerchen/tylerchen-blog-template.git)
 
-Or you can [fork me](https://github.com/tylerchen/tylerchen-blog-template/fork)
+Or you can [fork me here](https://github.com/tylerchen/tylerchen-blog-template/fork).
 
 No gh-pages branch? read the gitgub pages and create it first.
 

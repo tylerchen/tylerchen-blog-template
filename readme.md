@@ -6,7 +6,7 @@ A Blog Template for Github
 * Do you want to update your Blog on line?
 * Do you have no ruby environment?
 
-Try My Blog Template!
+Try TylerChen's Blog Template!
 ----
 Just fork me on [https://github.com/tylerchen/tylerchen-blog-template.git](https://github.com/tylerchen/tylerchen-blog-template.git)
 

@@ -10,4 +10,6 @@ Try TylerChen's Blog Template!
 ----
 Just fork me on [https://github.com/tylerchen/tylerchen-blog-template.git](https://github.com/tylerchen/tylerchen-blog-template.git)
 
-Send me email [iffiff1@gmail.com](mail:iffiff1@gmail.com) if you have the problem on using it.
+Send me email [iffiff1@gmail.com](mailto:user@example.com) if you have the problem on using it.
+
+And Thanks those guys writing the markdown.js.

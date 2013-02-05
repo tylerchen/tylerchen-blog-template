@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	var converter = new Showdown.converter();
 	var url = getURLParameter("md");
 	{
 		if (url) {
@@ -14,7 +15,7 @@ $(document).ready(function() {
 		$.get(url, function(data) {
 			if (data) {
 				try {
-					$("#bodyColumn").html(markdown.toHTML(data));
+					$("#bodyColumn").html(converter.makeHtml(data));
 				} catch (err) {
 				}
 			}

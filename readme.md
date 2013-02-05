@@ -26,16 +26,21 @@ Tutorial
 #### Add a new blog
 
 1. First create a MD file on github, such as myblog.md
-    
 2. Find the section on index.html, this is the articles list
 
-    <ul class="nav nav-list">
+    `
+        <ul class="nav nav-list">
+    `
 
-3. Add a article link, you can notice the "?md=myblog.md", the javascript will process the "md" parameter and read the md file "myblog.md" and translate the file to the html.
+3. Add a article link, you can notice the "?md=myblog.md", the javascript will process the "md" parameter and read the md file "myblog.md" and translate the file to the html
 
-    <li><a href="?md=myblog.md"><i class="none"></i>My Blog</a></li>
+    `
+        <li><a href="?md=myblog.md"><i class="none"></i>My Blog</a></li>
+    `
 
 4. The content area
 
-    <div id="bodyColumn"  class="span9"></div>
+    `
+        <div id="bodyColumn"  class="span9"></div>
+    `
 

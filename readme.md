@@ -18,7 +18,7 @@ My Blog is here [Tyler Chen's Blog](http://tylerchen.github.com/Blogs/).
 
 Send me email [iffiff1@gmail.com](mailto:iffiff1@gmail.com) if you have the problem on using it.
 
-And Thanks those guys writing the markdown.js.
+And Thanks those guys writing the markdown parse javascripts.
 
 
 Tutorial

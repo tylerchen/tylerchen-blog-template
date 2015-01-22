@@ -42,6 +42,15 @@ function getURLParameter(name) {
 	return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [
 			, null ])[1]);
 }
+function getEditUrl() {
+	try{
+		var edit_url="https://github.com/{user}/{project}/edit/gh-pages/{path}/{file}";
+		//blog url -> http://tylerchen.github.io/Blogs/programming/?md=java-jna-lib-load.md
+		var href=location.href.split('/');//["http:", "", "tylerchen.github.io", "Blogs", "programming", "?md=java-jna-lib-load.md"]
+		var params=[href[2].substring(0,href[2].indexOf('.')),href[3],href.slice(4,href.length-1).join('/'),href[href.length-1].substring(href[href.length-1].indexOf('=')+1)];
+		return edit_url.replace('{user}',params[0]).replace('{project}',params[1]).replace('{path}',params[2].replace(/^\//,'').replace(/\/$/,'')).replace('{file}',params[3]);
+	}catch(err){return location.href;}
+}
 function markdownLoad(){
 	var url = getURLParameter("md");
 	{
